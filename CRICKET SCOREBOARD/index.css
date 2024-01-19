@@ -1,0 +1,33 @@
+body {
+    font-family: ROG Fonts, sans-serif;
+    text-align: center;
+    margin: 20px;
+    color: aliceblue;
+    background-color: black;
+    background-image: url("https://www.shutterstock.com/image-vector/night-cricket-stadium-illustration-vector-600nw-2160100275.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #scoreboard {
+    border: 2px solid #f8f7f7;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+
+  #buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+
+  button {
+    font-family: ROG Fonts, sans-serif;
+    font-size: 14px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: rgb(253, 3, 3) 0px 5px 15px;
+    
+  }
